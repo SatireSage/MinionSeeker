@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreMenu">
+
+    <TextView
+        android:id="@+id/highscore3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/size3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highscore2" />
+
+    <TextView
+        android:id="@+id/scoreNum3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="num"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/minion_blue_dark"
+        app:layout_constraintStart_toEndOf="@+id/highscore3"
+        app:layout_constraintTop_toBottomOf="@+id/scoreNum2" />
+
+    <TextView
+        android:id="@+id/highscore2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/size2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highscore1" />
+
+    <TextView
+        android:id="@+id/scoreNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="num"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/minion_blue_dark"
+        app:layout_constraintStart_toEndOf="@+id/highscore2"
+        app:layout_constraintTop_toBottomOf="@+id/scoreNum1" />
+
+    <TextView
+        android:id="@+id/scoreNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="num"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/minion_blue_dark"
+        app:layout_constraintStart_toEndOf="@+id/highscore1"
+        app:layout_constraintTop_toBottomOf="@+id/highScores" />
+
+    <TextView
+        android:id="@+id/highscore1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/size1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highScores" />
+
+    <TextView
+        android:id="@+id/highScores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/high_scores_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/minion_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playsText" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/scores_text_header"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/minion_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/playsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/times_played_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreText" />
+
+    <TextView
+        android:id="@+id/numPlays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="num"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/minion_blue_dark"
+        app:layout_constraintStart_toEndOf="@+id/playsText"
+        app:layout_constraintTop_toBottomOf="@+id/scoreText" />
+
+    <ImageView
+        android:id="@+id/minionsHappy"
+        android:layout_width="395dp"
+        android:layout_height="262dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/highScores"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.492"
+        app:srcCompat="@drawable/minions_celebrate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

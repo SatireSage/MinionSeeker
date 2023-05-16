@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <!-- Source:https://in.pinterest.com/pin/glen-gif-we-heart-it-30469734966349678 -->
+
+    <Button
+        android:id="@+id/scoreButton"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="scoreButton"
+        android:text="@string/scores_text"
+        android:textColor="@color/minion_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/optionsButton" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/findMinions"
+        android:layout_width="254dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/minions_searching"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/optionsButton" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button"
+        android:onClick="playGame"
+        android:text="@string/playBut"
+        android:textColor="@color/minion_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/optionsButton"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="optionsButton"
+        android:text="@string/optionsBut"
+        android:textColor="@color/minion_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playButton" />
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="262dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:onClick="helpButton"
+        android:text="@string/helpBut"
+        android:textColor="@color/minion_blue_dark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreButton" />
+
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/menuText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/minion_blue_light"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

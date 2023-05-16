@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Minion Seeker</string>
+    <string name="devNames">Created by: \n Sahaj Singh \n Rajnesh Joshi</string>
+    <string name="skipText">Skip</string>
+    <string name="optionsBut">Options</string>
+    <string name="playBut">Play Game!</string>
+    <string name="helpBut">Help</string>
+    <string name="menuText">Find the Minions!</string>
+    <string name="scans_used_text"># Scans Used:</string>
+    <string name="ofText">of</string>
+    <string name="foundText">Found</string>
+    <string name="times_played_text">Times Played:</string>
+    <string name="settingsText">Settings:</string>
+    <string name="board_size_text">Board Size:</string>
+    <string name="minions_num_text"># Minions:</string>
+    <string name="erase_times_played_text">Erase Times Played and High Scores</string>
+    <string name="help_text">Help</string>
+    <string name="how_to_play_text">How to Play?</string>
+    <string name="sources_text">Sources</string>
+    <string name="license_text">LICENSE</string>
+    <string name="how_to_play">"Minion Seeker is a game where you have to find the randomly placed minion.\n"
+                    "- Tap a cell to reveal its contents. Most of the time you will find a count of the hidden minions in the same row and column of the cell you've chosen.\n"
+                    "- Use this to your advantage, and make a smart choice about which cell to choose next in order to find all the Minions!"</string>
+    <string name="license">Public Domain License</string>
+    <string name="scores_text">Scores</string>
+    <string name="scores_text_header">Scores:</string>
+    <string name="high_scores_text">High Scores:</string>
+    <string name="size1">4 rows by 6 columns</string>
+    <string name="size2">5 rows by 10 columns</string>
+    <string name="size3">6 rows by 15 columns</string>
+    <string name="congratulations_txt">Congratulations!</string>
+    <string name="round_end_message">You found all the minions!</string>
+    <string name="round_end_button">Yay!</string>
+    <string-array name="boards_sizes_text">
+        <item>@string/size1</item>
+        <item>@string/size2</item>
+        <item>@string/size3</item>
+    </string-array>
+    <string-array name="number_minions_text">
+        <item>6 minions</item>
+        <item>10 minions</item>
+        <item>15 minions</item>
+        <item>20 minions</item>
+    </string-array>
+</resources>
