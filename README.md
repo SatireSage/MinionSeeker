@@ -14,12 +14,12 @@ Minion Seeker is an engaging game where players try to find a certain number of 
 
 ## Features
 
-- Welcome screen with animations and application information
-- Main menu for easy navigation to game, options, and help screens
-- Configurable game board size and number of mines
-- Visual and audio feedback during gameplay
-- Game statistics and best scores for each configuration
-- Themed user interface
+- [x] Welcome screen with animations and application information
+- [x] Main menu for easy navigation to game, options, and help screens
+- [x] Configurable game board size and number of mines
+- [x] Visual and audio feedback during gameplay
+- [x] Game statistics and best scores for each configuration
+- [x] Themed user interface
 
 ## Getting Started
 
@@ -47,6 +47,10 @@ Available options for the number of mines are:
 - 15 mines
 - 20 mines
 
+## Usage
+
+Download an emulator on Android Studio, or pair a tethered device and run the application. This application was tested on the Google Pixel 2, and the Samsung S10.
+
 ## Contributing
 
 If you would like to contribute to this project, please open an issue or submit a pull request with your proposed changes.
@@ -54,6 +58,10 @@ If you would like to contribute to this project, please open an issue or submit 
 ## Authors
 
 - [Sahaj Singh](https://github.com/satiresage)
+
+## License
+
+Public Domain License
 
 ## Acknowledgments
 
