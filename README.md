@@ -51,13 +51,13 @@ Available options for the number of mines are:
 
 Download an emulator on Android Studio, or pair a tethered device and run the application. This application was tested on the Google Pixel 2, and the Samsung S10.
 
+## Authors
+
+- [Sahaj Singh](https://github.com/satiresage), [Rajnesh Joshi](https://github.com/Rajnesh28)
+
 ## Contributing
 
 If you would like to contribute to this project, please open an issue or submit a pull request with your proposed changes.
-
-## Authors
-
-- [Sahaj Singh](https://github.com/satiresage)
 
 ## License
 
